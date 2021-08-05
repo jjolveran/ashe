@@ -1,0 +1,38 @@
+/***********TAG Selectors ***********/
+
+h1 {
+    color:red;
+    font-size:100px;
+}
+
+/*Pseudo class*/
+img:hover {
+    background-color: gold;
+}
+
+
+/***********CLASS Selectors ***********/
+/*CLASS it's more specific and it's priority 2*/
+/*Its useful for a group*/
+/*You can add multiple class to one object*/
+.bacon {
+    background-color:green
+}
+
+.brocolli {
+    background-color: red;
+}
+
+.circular {
+    border-radius:50%
+}
+
+
+/***********ID Selectors ***********/
+/*ID it's more specific and it's priority 1*/
+/*ID must be unique in one place*/
+/*You can only one 1 id, not as class, that you can multiple classes*/
+#heading {
+    color:blue
+}
+
