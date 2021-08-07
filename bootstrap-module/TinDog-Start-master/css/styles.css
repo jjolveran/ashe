@@ -1,27 +1,46 @@
-#title {
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h5,h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*Headings*/
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 7% 15%;
+
+}
+
+/*Sections*/
+.colored-section {
     background-color: #ff4c68;
     color: #fff;
 }
 
-body {
-    font-family: "Montserrat";
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-
-}
-
-h2 {
-    font-family: "Montserrat", sans-serif;
-
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-
+.white-section {
+    background-color: #fff;
 }
 
 /*Navigation Bar*/
@@ -48,6 +67,13 @@ h2 {
     margin: 5% 3% 5% 0;
 }
 
+/*Tite Section*/
+#title .container-fluid {
+    padding: 3% 7% 15%;
+    text-align: left;
+
+}
+
 /*Title Image*/
 
 .dog-image {
@@ -57,15 +83,15 @@ h2 {
     right: 30%
 }
 
-
 /*Features Card*/
 #features {
-    text-align: center;
-    padding: 100px;
-    background-color: #fff;
+
     position: relative;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+}
 .div-features{
     padding:20px;
 }
@@ -89,12 +115,15 @@ h2 {
     cursor: pointer;
 }
 
-/*Testimonial sectioon*/
+/*Testimonial section*/
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -103,13 +132,8 @@ h2 {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -118,9 +142,10 @@ h2 {
     margin: 20px 20px 50px;
 }
 
+/*Pricing*/
+
 #pricing {
     padding:100px;
-    text-align: center;
 }
 
 .pricing-column {
@@ -129,34 +154,24 @@ h2 {
 
 
 @media (max-width: 1028px) {
-    #title {
+
+    #title{
         text-align: center;
     }
-
     .dog-image {
         position: static;
         transform: rotate(0);
     }
 }
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    padding: 100px 100px 40px 100px;
-    text-align: center;s
-}
+/*CTA*/
+
 
 #footer-text {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1.5
 }
 
 #footer {
-    padding: 5%;
-    text-align: center;
     font-family: sans-serif;
-}
-
-.icons-footer   {
-    padding: 5px 5px 20px 5px;
 }
